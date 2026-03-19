@@ -1,0 +1,28 @@
+name: petwallpaper
+description: 모든 앱 위에서 동물이 자유롭게 돌아다니는 오버레이 방식 Flutter 앱
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.2.2
+  provider: ^6.1.1
+  lottie: ^2.7.0
+  audioplayers: ^5.2.1
+  flutter_overlay_window: ^0.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/sounds/
+    - assets/animations/
